@@ -3,6 +3,7 @@ QT       -= gui
 
 TARGET    = qhttp
 TEMPLATE  = lib
+CONFIG += staticlib
 
 PRJDIR    = ..
 include($$PRJDIR/commondir.pri)
